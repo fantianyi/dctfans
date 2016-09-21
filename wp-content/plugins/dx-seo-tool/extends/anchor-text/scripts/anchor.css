@@ -1,0 +1,146 @@
+#dxseo-anchor {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#dxseo-anchor input.long-text {
+	width: 500px;
+}
+
+/* Navigation */
+#nav-wrap {
+	margin: 20px 0;
+}
+#nav-wrap ul {
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0;
+    padding: 0;
+}
+#nav-wrap li.nav {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-bottom: none !important;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+    
+}
+#nav-wrap li.nav-selected {
+	background-color: #fdfdfd;
+    border: 1px solid #dfdfdf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;	
+}
+#nav-wrap li.nav:hover {
+    color: #333;
+	box-shadow: 1px 0 1px #f0f0f0;
+	background-color: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+}
+
+/* Form add */
+#dxseo-anchor .add-wrap p.value label{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#dxseo-anchor #da-button-add {
+	margin-left: 20px;
+}
+#dxseo-anchor .add-wrap p.att {
+	margin-left: 20px;
+}
+#dxseo-anchor .add-wrap p.att span {
+	margin-right: 38px;
+}
+#dxseo-anchor #da-button-default {
+	margin-left: 40px;
+}
+#dxseo-anchor #destroy-datas-wrap {
+	margin-left: 0;
+}
+#dxseo-anchor #destroy-datas-wrap span.message {
+	color: red;
+	margin-left: 20px;
+}
+
+/* Operate */
+#dxseo-anchor .operate {
+	display: none;
+}
+#dxseo-anchor .search-box {
+	float: left;
+	padding-top: 3px;
+}
+#dxseo-anchor .tablenav-pages {
+	margin-right: 10px;
+    float: right;
+}
+#dxseo-anchor #operate-wrap #order-wrap select {
+	float: none;
+}
+#dxseo-anchor #operate-wrap #order-wrap span {
+	margin-left: 10px;
+}
+
+/* Table */
+#dxseo-anchor .datas {
+	display: none;
+}
+#dxseo-anchor table.datas #serial, #dxseo-anchor table.datas #priority {
+	width: 50px;
+}
+#dxseo-anchor table.datas #keyword {
+	width: 150px;
+}
+#dxseo-anchor table.datas #att {
+	width: 400px;
+}
+#dxseo-anchor .column-keyword .edit {
+	color: #21759b;
+	cursor: pointer;
+}
+#dxseo-anchor .column-keyword .delete-anchor {
+	color: red;
+	cursor: pointer;
+}
+#dxseo-anchor .column-cb {
+	padding: 10px 0 0;
+	width: 2.2em;
+	vertical-align: top;
+}
+#dxseo-anchor #the-list tr.item-selected {
+	background-color: #DCE8EF;
+}
+#dxseo-anchor input.no-checked {
+	color: #e1e1e1;
+}
+#dxseo-anchor .column-att .button {
+	cursor: default;
+}
+#dxseo-anchor tr.deleting {
+	background-color: red !important;
+}
+#dxseo-anchor tr.editing {
+	background-color: #B5D8B3 !important;
+}
+
+/* Settings wrap */
+#settings-wrap, #port-wrap {
+	display: none;
+}
+#port-wrap .message {
+	color: green;
+	margin-left: 10px;
+}
+#port-wrap h3 {
+	margin: 20px 0;
+}
+#port-wrap p {
+	margin-left: 20px;
+}

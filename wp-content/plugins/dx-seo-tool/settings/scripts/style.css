@@ -1,0 +1,10 @@
+.column-bottom {
+    margin-top: 50px;
+    width: 50%;
+}
+.postbox .no-border {
+	border: none !important;
+}
+#wpfooter {
+	display: none;
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Disallow: /wp-admin
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-includes
+Sitemap: /sitemap_baidu.xml

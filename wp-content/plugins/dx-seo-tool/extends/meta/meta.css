@@ -1,0 +1,6 @@
+#aiosp_home_title, #aiosp_home_keywords, #aiosp_home_description, #aiosp_home_metas {
+	width: 800px;
+}
+#aiosp_home_description, #aiosp_home_metas {
+    height: 60px;
+}
