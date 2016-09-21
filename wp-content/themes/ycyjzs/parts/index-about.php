@@ -2,6 +2,6 @@
 	
 	<?php include( 'index-page.php' ); ?> 
 
-	<?php $category_name = 'about'; include( 'index-category_name.php' ); ?>
+	<?php $cid = get_option( 'DX-Eblr-index-changjing' ); include( 'index-changjing.php' ); ?>
 	
 </div>

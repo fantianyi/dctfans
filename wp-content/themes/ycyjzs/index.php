@@ -160,7 +160,7 @@ for(var i=1;i<=3;i++){g('tb4_'+i).className='normaltab4';g('tbc4_0'+i).className
 </div>
 	
 		
-<?php $cid = get_option( 'DX-Eblr-index-rongyu' ); include( 'parts/index-rygundong.php' ); ?>     
+<?php // $cid = get_option( 'DX-Eblr-index-rongyu' ); include( 'parts/index-rygundong.php' ); ?>     
 
 
 <div class="link_bj mt10">
