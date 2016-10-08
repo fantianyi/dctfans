@@ -31,12 +31,12 @@
     <div class="header">
         <div class="h_top">
             <span class="fr">
-				<a title="快速访问DECENT中国协会官网" href="<?php bloginfo('template_directory'); ?>/Shortcut.php">收藏本站 </a>|
+				<a title="快速访问<?php bloginfo('name'); ?>" href="<?php bloginfo('template_directory'); ?>/Shortcut.php">收藏本站 </a>|
 				<a title="在线留言" href="<?php echo get_option('home'); ?>/contact">联系我们</a>|
 				<a title="帮助中心" href="<?php echo get_option('home'); ?>/category/news/wenda">帮助中心</a>|
 				<a title="网站地图" href="<?php echo get_option('home'); ?>/sitemap.xml" target="_blank">网站地图</a>
-				<a rel="nofollow" title="新浪微博" href="http://weibo.com/DECENT" target="_blank"><img alt="新浪微博" src="<?php bloginfo('template_directory'); ?>/images/xl.gif"></a>
-				<a rel="nofollow" title="腾讯微博" href="http://t.qq.com/DECENT" target="_blank"><img alt="腾讯微博" src="<?php bloginfo('template_directory'); ?>/images/tx.gif"></a>
+				<a rel="nofollow" title="新浪微博" href="http://weibo.com/decentplatform" target="_blank"><img alt="新浪微博" src="<?php bloginfo('template_directory'); ?>/images/xl.gif"></a>
+				<!--<a rel="nofollow" title="腾讯微博" href="http://t.qq.com/DECENT" target="_blank"><img alt="腾讯微博" src="<?php bloginfo('template_directory'); ?>/images/tx.gif"></a>-->
 			</span>
 			您好！欢迎来到 <?php bloginfo('name'); ?> 官方网站！
 		</div>

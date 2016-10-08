@@ -1,5 +1,5 @@
 <div class="foot">
-	<div class="foott">
+  <div class="foott">
     <div class="footer">
         <div class="fnav">
             <?php 
@@ -14,7 +14,7 @@
 			</div>
         </div>
     </div>
-	</div>
+  </div>
 </div>
 
 <!-- 返回顶部 -->

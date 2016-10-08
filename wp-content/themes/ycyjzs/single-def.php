@@ -1,11 +1,11 @@
 <?php get_header();?>
 
 <div class="sidbar fl">
-<div class="nylefts2 fl mt10">
+  <div class="nylefts2 fl mt10">
 	<h4>推荐文章</h4>
 	<?php include( 'parts/index-recommend.php' ); ?>
-</div>
-<div class="clear"></div>
+  </div>
+  <div class="clear"></div>
 </div>
 
 <div class="nyrights fr mt10">

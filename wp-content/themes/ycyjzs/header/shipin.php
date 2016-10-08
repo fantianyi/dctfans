@@ -15,7 +15,7 @@
 			?>
         </div>
     </div>
-	<div class="pageheter">
+	<!--<div class="pageheter">
 		<img src="<?php bloginfo('template_directory'); ?>/images/shipinheader.jpg">
-	</div>
+	</div>-->
 	

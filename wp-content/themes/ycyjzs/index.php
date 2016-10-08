@@ -17,9 +17,9 @@
         </div>
     </div> 
     <div class="clear"></div>
-        <div class="ad mt10 loadimg">
+        <!--<div class="ad mt10 loadimg">
             <img alt="横幅广告" src="<?php bloginfo('template_directory'); ?>/images/shouxieti.jpg"></a>
-        </div>
+        </div>-->
 
 <div class="abt">
 <?php $cid = get_option( 'DX-Eblr-index-faq' ); include( 'parts/index-faq.php' ); ?> 

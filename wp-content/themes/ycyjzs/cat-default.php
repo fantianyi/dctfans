@@ -1,23 +1,11 @@
 <?php get_header();?>
 
 <div class="sidbar fl">
-<div class="nylefts1 fl mt10">
-	<h4>新闻动态</h4>
-	<?php 
-		$top_nav = wp_nav_menu( array( 'theme_location'=>'newscl', 'fallback_cb'=>'', 'container'=>'', 'menu_class'=>'celanull', 'echo'=>false, 'after'=>'' ) );
-		$top_nav = str_replace( "</li>\n</ul>", "</li>\n</ul>", $top_nav );
-		echo $top_nav;
-	?>
-</div>
-<div class="nylefts2 fl mt10">
-	<h4>设计团队</h4>
-	<?php $cid = get_option( 'DX-Eblr-index-clsjs' ); include( 'parts/index-clsjs.php' ); ?>
-</div>
-<div class="nylefts2 fl mt10">
-	<h4>推荐设计</h4>
-	<?php $cid = get_option( 'DX-Eblr-index-clsjt' ); include( 'parts/index-clsjt.php' ); ?>
-</div>
-<div class="clear"></div>
+  <div class="nylefts1 fl mt10">
+	<h4>推荐文章</h4>
+	<?php include( 'parts/index-recommend.php' ); ?>
+  </div>
+  <div class="clear"></div>
 </div>
 
 <div class="nyrights fr mt10">

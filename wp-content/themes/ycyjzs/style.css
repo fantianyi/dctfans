@@ -4,8 +4,14 @@ Theme URI: http://www.ycyjzs.com
 Version: 1.86
 */
 
+/*
+#2db397; 绿色,用于文字
+#1abc9c: 绿色,用于背景
+#1b1b1b: 深黑灰,用于整体背景 !important;
+#2f2f2f: 浅黑灰,用于底部背景
+*/
 
-html{color:#000;background:#FFF; }
+html{color:#000;background-color: #2f2f2f !important; }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
@@ -72,7 +78,7 @@ a:hover { text-decoration:underline;}
 .right2_main { width:273px; border:solid 1px #764D17; padding-bottom:15px; overflow:hidden;background:#FFF;}
 .left2_main { width:668px;  border:solid 1px #764D17; padding-bottom:15px; overflow:hidden;background:#FFF;}
 /*头部开始*/
-.top{ background: url(images/top_bj.jpg) no-repeat center 30px; height: 229px;}
+.top{ background: no-repeat center 30px; height: 229px;}
 .h_top{ height: 30px; line-height: 30px;  overflow:hidden; color: #B2895C;}
 .h_top span a{ padding:0 7px; color: #B2895C;}
 .h_top img{ vertical-align:middle; padding:1px 0 0 0}
@@ -104,7 +110,9 @@ a:hover { text-decoration:underline;}
 #navbar .sub-menu .sub-menu{ left:180px; top:-1px; -left:170px; -top:1px;}
 #navbar li .sub-menu li a.sub{ background:url(images/misc_26.png) no-repeat right 6px; padding-right:15px; }
 /*flash*/
-#inbanboxx,.bigbeijing{background: url(images/body_bg.gif);}
+#inbanboxx,.bigbeijing{
+	/*background-image: url(images/content.jpg);*/
+}
 #inban {width: 1420px;height: 466px;position:relative;font-size:12px;overflow:hidden;margin: 0 auto;z-index: 10;}
 #banimg li {cursor:pointer;float:left;}
 #banimg {list-style:none;position:absolute;top:0px;left:0px;}
@@ -134,14 +142,14 @@ a:hover { text-decoration:underline;}
 /*5个按钮*/
 .anniu5{width: 960px;height: 74px;margin: 10px 0px;}
 /*底部开始*/
-.foot{background: #2A1C11 url(images/nav_footer.jpg) repeat-x;  border-top: 3px solid #2A1C11;}
-.fnav {height: 45px; line-height: 45px; text-align:center;  }
+.foot{background: #2f2f2f}
+.fnav {height: 44px; line-height: 45px; text-align:center; }
 .fnav a { padding:0 12px; color:#fff;}
 .f_tu01{ margin:19px 0 0 90px; float:left; display:inline}
 .f_nr{ height: 180px;}
 .f_wz{ width: 960px; line-height: 26px; color: #B2895C; text-align: center; padding: 50px 0 0 0px;}
 .f_wz a{color: #B2895C;text-decoration: none;}
-.foott{background: url(images/footer_bg.jpg) no-repeat 50% 45px;}
+.foott{background: no-repeat 50% 44px;background: url(images/nav_bg.jpg) repeat-x;  border-top: 3px solid}
 .dibuul{width: 880px;margin: 0 auto;}
 .dibuul li{float: left;color: #4F3520;}
 .dibuul li a{font-weight: bold;  color: #4F3520;}

@@ -4,7 +4,7 @@
 <h3><a href="<?php echo get_category_link( $cid ); ?>" target="_blank"><?php echo get_cat_name( $cid ); ?></a></h3>
 </div>
 <div class="info_ct">
-<a class="info_img"><img src="<?php bloginfo( 'template_url' ); ?>/images/news-<?php echo $img_id; ?>.jpg" width="283" height="96"></a> 
+<!--<a class="info_img"><img src="<?php bloginfo( 'template_url' ); ?>/images/news-<?php echo $img_id; ?>.jpg" width="283" height="96"></a>-->
 <ul>
 <?php 
 	query_posts( array( 'cat'=>$cid, 'posts_per_page'=>7, 'ignore_sticky_posts'=>true ) );
